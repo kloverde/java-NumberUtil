@@ -143,6 +143,7 @@ public class BigDecimalHelperTest {
 
    @Test
    public void isWithinInclusiveRange_success() {
+      assertTrue( BigDecimalCompare.isWithinInclusiveRange(new BigDecimal("1"), new BigDecimal("1"), new BigDecimal("1")) );
       assertTrue( BigDecimalCompare.isWithinInclusiveRange(new BigDecimal("4.3"), new BigDecimal("4"), new BigDecimal("4.3000001")) );
       assertTrue( BigDecimalCompare.isWithinInclusiveRange(new BigDecimal("-4.3"), new BigDecimal("-5"), new BigDecimal("-4")) );
    }
