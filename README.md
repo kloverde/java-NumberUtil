@@ -14,7 +14,7 @@ I don't like using BigDecimal.compareTo, so I created public static methods for 
 2. If you use Eclipse, install Buildship if you don't already have it
 3. Update `buildScriptsDir` in gradle.properties to reflect the path where you put BuildScripts
 
-...or just do your own thing because this project is so small ;)
+...or just do your own thing because this project is so simple ;)
 
 
 ## Thanks
