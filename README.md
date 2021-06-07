@@ -16,8 +16,3 @@ This project is known to build on Gradle 7.0.
 3.  Set `buildScriptsDir` (the path to BuildScripts) in gradle.properties
 4.  Set `builtBy` in gradle.properties
 5.  Run `gradle build`
-
-
-## Thanks
-
-https://paypal.me/KurtisLoVerde/1
